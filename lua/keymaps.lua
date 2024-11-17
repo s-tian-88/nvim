@@ -1,5 +1,4 @@
 local map = vim.keymap
-
 vim.g.mapleader = " "
 
 map.set('', '<up>', ':echoe "Use k"<CR>', {noremap = true, silent = true})
